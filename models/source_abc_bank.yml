@@ -9,7 +9,7 @@ sources:
     schema: SOURCE_DATA
 
     tables:
-      - name: ABC_BANK_POSITION
+      - name: REF_ABC_BANK_POSITION
         description: >
           The landing table holding the data 
           imported from the CSV extracted by ABC Bank.

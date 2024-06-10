@@ -47,7 +47,7 @@ models:
     marts:    # Data delivery layer
       portfolio: # one specific data mart
         +materialized: table
-        +schema: MART_PORTFILIO
+        +schema: MART_PORTFOLIO
 snapshots:
   portfolio_tracking:
     +target_schema: SNAPSHOTS
